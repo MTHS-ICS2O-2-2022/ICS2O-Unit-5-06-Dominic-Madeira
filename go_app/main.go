@@ -12,8 +12,8 @@ func main() {
 
 	var sideA int
 	var sideB int
-	var counter int = 0
-	var output int = 0
+	var counter int
+	var output int
 
 	// input
 	fmt.Println("This program multiplies two numbers together.")
@@ -28,8 +28,8 @@ func main() {
 
 	// process
 	for counter < sideA {
-		output = output + sideB
-		counter = counter + 1
+		output += sideB
+		counter++
 	}
 
 	fmt.Println()
